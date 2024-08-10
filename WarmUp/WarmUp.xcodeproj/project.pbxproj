@@ -11,6 +11,7 @@
 		D6E2F8092C670E4B0065BB0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8082C670E4B0065BB0F /* ContentView.swift */; };
 		D6E2F80B2C670E4C0065BB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E2F80A2C670E4C0065BB0F /* Assets.xcassets */; };
 		D6E2F80F2C670E4C0065BB0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E2F80E2C670E4C0065BB0F /* Preview Assets.xcassets */; };
+		D6E2F8162C671BED0065BB0F /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8152C671BED0065BB0F /* SimpleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D6E2F80A2C670E4C0065BB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E2F80C2C670E4C0065BB0F /* WarmUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WarmUp.entitlements; sourceTree = "<group>"; };
 		D6E2F80E2C670E4C0065BB0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6E2F8152C671BED0065BB0F /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D6E2F8062C670E4B0065BB0F /* WarmUpApp.swift */,
+				D6E2F8152C671BED0065BB0F /* SimpleView.swift */,
 				D6E2F8082C670E4B0065BB0F /* ContentView.swift */,
 				D6E2F80A2C670E4C0065BB0F /* Assets.xcassets */,
 				D6E2F80C2C670E4C0065BB0F /* WarmUp.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E2F8092C670E4B0065BB0F /* ContentView.swift in Sources */,
+				D6E2F8162C671BED0065BB0F /* SimpleView.swift in Sources */,
 				D6E2F8072C670E4B0065BB0F /* WarmUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
