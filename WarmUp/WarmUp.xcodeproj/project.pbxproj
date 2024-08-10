@@ -16,6 +16,10 @@
 		D6E2F81B2C672C2B0065BB0F /* ComplexButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F81A2C672C2B0065BB0F /* ComplexButton.swift */; };
 		D6E2F81D2C672C980065BB0F /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F81C2C672C980065BB0F /* MyButton.swift */; };
 		D6E2F81F2C6735640065BB0F /* MyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F81E2C6735640065BB0F /* MyText.swift */; };
+		D6E2F8222C6739040065BB0F /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8212C6739040065BB0F /* OnBoarding.swift */; };
+		D6E2F8262C67393D0065BB0F /* CommonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8252C67393D0065BB0F /* CommonText.swift */; };
+		D6E2F8282C673A340065BB0F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8272C673A340065BB0F /* Card.swift */; };
+		D6E2F82A2C673E720065BB0F /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E2F8292C673E720065BB0F /* CommonButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D6E2F81A2C672C2B0065BB0F /* ComplexButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexButton.swift; sourceTree = "<group>"; };
 		D6E2F81C2C672C980065BB0F /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		D6E2F81E2C6735640065BB0F /* MyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyText.swift; sourceTree = "<group>"; };
+		D6E2F8212C6739040065BB0F /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		D6E2F8252C67393D0065BB0F /* CommonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonText.swift; sourceTree = "<group>"; };
+		D6E2F8272C673A340065BB0F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D6E2F8292C673E720065BB0F /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		D6E2F8052C670E4B0065BB0F /* WarmUp */ = {
 			isa = PBXGroup;
 			children = (
+				D6E2F8202C6738F30065BB0F /* OnBoarding */,
 				D6E2F8192C671DF60065BB0F /* 01 */,
 				D6E2F8062C670E4B0065BB0F /* WarmUpApp.swift */,
 				D6E2F8082C670E4B0065BB0F /* ContentView.swift */,
@@ -90,6 +99,17 @@
 				D6E2F81A2C672C2B0065BB0F /* ComplexButton.swift */,
 			);
 			path = 01;
+			sourceTree = "<group>";
+		};
+		D6E2F8202C6738F30065BB0F /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D6E2F8212C6739040065BB0F /* OnBoarding.swift */,
+				D6E2F8292C673E720065BB0F /* CommonButton.swift */,
+				D6E2F8272C673A340065BB0F /* Card.swift */,
+				D6E2F8252C67393D0065BB0F /* CommonText.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +184,14 @@
 			files = (
 				D6E2F81F2C6735640065BB0F /* MyText.swift in Sources */,
 				D6E2F8092C670E4B0065BB0F /* ContentView.swift in Sources */,
+				D6E2F82A2C673E720065BB0F /* CommonButton.swift in Sources */,
 				D6E2F8182C671DDC0065BB0F /* Layout.swift in Sources */,
 				D6E2F81B2C672C2B0065BB0F /* ComplexButton.swift in Sources */,
 				D6E2F8162C671BED0065BB0F /* SimpleView.swift in Sources */,
 				D6E2F8072C670E4B0065BB0F /* WarmUpApp.swift in Sources */,
+				D6E2F8262C67393D0065BB0F /* CommonText.swift in Sources */,
+				D6E2F8282C673A340065BB0F /* Card.swift in Sources */,
+				D6E2F8222C6739040065BB0F /* OnBoarding.swift in Sources */,
 				D6E2F81D2C672C980065BB0F /* MyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
